@@ -12,3 +12,8 @@ dependencies = [
     "langchain-openai>=1.1.7",
     "python-dotenv>=1.2.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "project/react-search-agent",
+]
